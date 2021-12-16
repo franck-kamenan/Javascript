@@ -1,0 +1,35 @@
+<html>
+    <body>
+        <script src="JSfunctions.js"></script>
+        <input type="button" onclick="msg()" value="call function without argument">
+        <br/>
+        <br/>
+        <input type="button" onclick="getCube(4)" value="call function with argument">
+        <br/>
+        <br/>
+        <input type="button" onclick="addition(5, 6)" value="call function with multiple arguments">
+        <br/>
+        <br/>
+        <script>
+            document.writeln(returnValue());
+            document.writeln("<br/>");
+
+            document.writeln(msg());
+            document.writeln("<br/>");
+
+            // problème
+            document.writeln(getCube(4));
+            document.writeln("<br/>");
+
+            // problème
+            document.writeln(addition(7, 8));
+            document.writeln("<br/>");
+
+            document.writeln(add(9, 10));
+            document.writeln("<br/>");
+
+            document.writeln(heroes("Blade", "Wolverine"));
+            document.writeln("<br/>");
+        </script>
+    </body>
+</html>

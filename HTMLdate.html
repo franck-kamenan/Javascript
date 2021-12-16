@@ -1,0 +1,17 @@
+<html>
+    <body>
+        Current Date and Time: <span id = "txt"></span>
+        <br/>
+        Clock: <span id = "digital"></span>
+        <script src="JSdate.js"></script>
+        <script>
+            document.getElementById('txt').innerHTML = today;
+            document.writeln("<br/>");
+            document.writeln("The date is: " + day + "|" + month + "|" + year);
+            document.writeln("<br/>");
+            document.writeln("The date is: " + day + "/" + month + "/" + year);
+            document.writeln("<br/>");
+            document.writeln("The time is: " + hours + ":" + minutes + ":" + seconds);
+        </script>
+    </body>
+</html>
